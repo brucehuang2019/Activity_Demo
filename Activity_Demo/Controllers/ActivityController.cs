@@ -65,7 +65,7 @@ namespace Activity_Demo.Controllers
             }
             catch (Exception ex)
             {
-                this._logService.WriteErrorLog("news_hot_uncategory");
+                this._logService.WriteErrorLog("activity_list");
                 
                 this._logService.WriteErrorLog(ex.Message);
 
