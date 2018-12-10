@@ -30,10 +30,10 @@ namespace Activity_Demo.Controllers
         }
 
         /// <summary>
-        /// 不分類熱門新聞資料
+        /// 活動列表資料
         /// </summary>
-        /// <param name="parameter">不分類熱門新聞資料參數</param>
-        /// <returns>不分類即時新聞資料</returns>
+        /// <param name="parameter">活動列表搜尋參數</param>
+        /// <returns>活動列表資料</returns>
         [Route("activity_list")]
         [HttpPost]
         public ActivityListViewModel ActivityList(ActivityListSearchParameter parameter)
